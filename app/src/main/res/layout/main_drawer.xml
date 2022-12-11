@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_drawer"
+    android:layout_gravity="end"
+    android:gravity="end"
+    android:layout_marginTop="50dp">
+
+    <RelativeLayout
+        android:id="@+id/drawer_header"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:background="@drawable/draw_bar">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="25sp"
+            android:onClick="onClick"
+            android:src="@drawable/ic_person_pull"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="3sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/update_profile"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="300sp"
+            android:layout_marginTop="25sp"
+            android:src="@drawable/sample_2"
+            android:visibility="invisible"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="2sp" />
+
+        <TextView
+            android:id="@+id/profile_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/one_mobile_bold"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/my_point_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="125sp"
+            android:fontFamily="@font/one_mobile_regular"
+            android:gravity="center"
+            android:text="나의 포인트 :"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/my_point_int"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125sp"
+            android:layout_marginTop="125sp"
+            android:fontFamily="@font/one_mobile_regular"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/drawer_menu"
+        android:layout_width="350dp"
+        android:layout_height="800dp"
+        android:layout_below="@id/drawer_header"
+        android:layout_marginTop="2dp"
+        app:menu="@menu/menu_main_drawer">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/one_mobile_bold"
+            android:text="ver. 1.1.4" />
+    </com.google.android.material.navigation.NavigationView>
+</RelativeLayout>

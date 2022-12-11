@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/notice_item"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[공지]"
+            android:textSize="20dp"
+            android:fontFamily="@font/one_mobile_regular"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/notice_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/notice_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:text="타이틀 샘플"
+            android:textSize="20sp"
+            android:fontFamily="@font/one_mobile_regular"/>
+        <TextView
+            android:id="@+id/notice_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:visibility="gone"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/notice_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="330dp"
+            android:text="관리자"
+            android:textSize="14sp"
+            android:fontFamily="@font/one_mobile_regular"/>
+
+        <TextView
+            android:id="@+id/notice_insertDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="2022-11-10"
+            android:textSize="12sp"
+            android:fontFamily="@font/one_mobile_regular"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8E8E8E"
+            android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

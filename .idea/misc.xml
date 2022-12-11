@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/data/FinalProject/app/src/main/res/layout/fragment_board.xml" value="0.16927083333333334" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable-v24/btn_bg.xml" value="0.213" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable-v24/ic_email.xml" value="0.213" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1665" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable-v24/shep.xml" value="0.149" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/edit_border.xml" value="0.213" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.213" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/ic_baseline_eco.xml" value="0.213" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.182" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.221" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1665" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/ic_recommend_border.xml" value="0.213" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/menu_bottom_bar_selected.xml" value="0.221" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/sample_gragh.xml" value="0.1665" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/drawable/sample_mission.xml" value="0.1665" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_board_insert.xml" value="0.4466666666666667" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_board_read.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_board_update.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_char_select.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_edit_user.xml" value="0.22" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_edit_user_image.xml" value="0.3223958333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_find_id.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_find_password.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_login.xml" value="0.4466666666666667" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_main2.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_my_board_list.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_notice.xml" value="0.33559782608695654" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_notice_read.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_password_update.xml" value="0.28688524590163933" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_pati_mission.xml" value="0.3223958333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_permission.xml" value="0.33559782608695654" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_register.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_select_mission.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_board.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_daily_mission__list_.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_map.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_map2.xml" value="0.3223958333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_mission.xml" value="0.3333333333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_ranking.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_ranking_list.xml" value="0.33559782608695654" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_recommend_list.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_today_mission.xml" value="0.4466666666666667" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/fragment_weekly_mission_list.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_board_comment_list.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_board_list.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_chara_cardview.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_map_list.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_map_marker.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_mission.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_notice_list.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_ranking.xml" value="0.33559782608695654" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_ranking_list.xml" value="0.33559782608695654" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_recommend_board_list.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_report_list.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_today_misson.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_today_misstion_list.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/item_weekly_mission_list.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/main_drawer.xml" value="0.286231884057971" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/notice_item.xml" value="0.3342391304347826" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/layout/row_item.xml" value="0.33559782608695654" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/menu/menu_bottom_bar.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/menu/menu_main.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/menu/menu_main_drawer.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/menu/menu_submit.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/menu/submit.xml" value="0.3380208333333333" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
+        <entry key="..\:/data/project/FinalProject/app/src/main/res/xml/filepaths.xml" value="0.18117359413202935" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

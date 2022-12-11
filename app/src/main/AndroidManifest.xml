@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 저장 파일에 접근하기 위한 퍼미션 설정 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 인터넷 사용 권한 설정 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".LoginPage.GlobalApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/simple_plas"
+        android:label="POLLANET"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject"
+        android:hardwareAccelerated="false"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity android:name=".MyBoardListActivity"
+            android:exported="false"
+            />
+
+        <activity
+            android:name=".Char_Select_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Board_Update_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Board_Insert_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Board_Read_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Notice_Read_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pati_Mission_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Select_Mission_Activity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.finalproject"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage.Password_update_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_User_Image_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Edit_User_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPage.Find_Password_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage.Find_ID_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Permission_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+                <data
+                    android:host="oauth"
+                    android:scheme="kakao17c179f6ce1249336abda7f5a104e62f" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="17c179f6ce1249336abda7f5a104e62f" />
+    </application>
+
+</manifest>

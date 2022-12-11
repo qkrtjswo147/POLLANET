@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string-array name="report">
+        <item>1.폭력적 또는 혐오스러운 표현</item>
+        <item>2.원치 않는 상업성 콘텐츠 또는 스팸</item>
+        <item>3.테러 조장 또는 자살 또는 자해</item>
+        <item>4.잘못된 정보</item>
+        <item>5.포르노 또는 음란물</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>

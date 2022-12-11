@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:background="#01A6E2"
+        android:elevation="5dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/bottom_menu"
+        android:layout_alignParentBottom="true"
+        android:background="#F8F8F8"
+        app:itemIconTint="@drawable/menu_bottom_bar_selected"
+        app:itemTextColor="@drawable/menu_bottom_bar_selected"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_bar" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerLayout">
+        <RelativeLayout
+            android:id="@+id/main_MyPage"
+            android:layout_width="match_parent"
+            android:layout_height="800dp">
+        </RelativeLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container">
+        </FrameLayout>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="250dp"
+            android:fromDegrees="0"
+            android:indeterminateDrawable="@drawable/progresbar"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="360"
+            android:visibility="invisible" />
+        <include layout="@layout/main_drawer"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

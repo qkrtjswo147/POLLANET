@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_Scroll"
+    tools:context=".HomeFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cardView_background"
+                    android:layout_width="414dp"
+                    android:layout_height="465dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:background="#F2F2F2">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView_main"
+                            android:layout_width="360dp"
+                            android:layout_height="360dp"
+                            android:layout_marginTop="80dp"
+                            app:cardCornerRadius="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.49"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:elevation="200dp">
+
+                                <ImageView
+                                    android:id="@+id/character_image"
+                                    android:layout_width="360dp"
+                                    android:layout_height="360dp" />
+                        </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView_second"
+                    android:layout_width="380dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView_background"
+                    app:cardCornerRadius="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/mission_perfection"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="215dp"
+                                    android:layout_marginTop="27dp"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textColor="#31B0F4"
+                                    android:textSize="50dp" />
+
+                                <TextView
+                                    android:id="@+id/char_level"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/my_chara_level"
+                                    android:layout_alignStart="@+id/my_chara_level"
+                                    android:layout_marginStart="-22dp"
+                                    android:layout_marginTop="24dp"
+                                    android:fontFamily="@font/one_mobile_regular"
+                                    android:text="나의 캐릭터 레벨"
+                                    android:textAlignment="center"
+                                    android:textSize="18dp" />
+
+                                <RelativeLayout
+                                    android:layout_width="3dp"
+                                    android:layout_height="140dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="183dp"
+                                    android:background="#D5D5D5" />
+
+                                <TextView
+                                    android:id="@+id/my_chara_level"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="58dp"
+                                    android:layout_marginTop="42dp"
+                                    android:fontFamily="@font/one_mobile_bold"
+                                    android:text="LV.1"
+                                    android:textSize="40dp" />
+
+                                <TextView
+                                    android:id="@+id/my_point_text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mission_perfection"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginStart="245dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="46dp"
+                                    android:fontFamily="@font/one_mobile_regular"
+                                    android:text="보유 포인트"
+                                    android:textSize="18dp" />
+
+                        </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/recommend_board_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="176dp"
+                    android:layout_marginTop="34dp"
+                    android:text="전체보기"
+                    android:textSize="16dp"
+                    android:visibility="invisible"
+                    android:fontFamily="@font/one_mobile_regular"
+                    app:layout_constraintStart_toEndOf="@+id/recommend_board_text"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView_second" />
+
+                <TextView
+                    android:id="@+id/recommend_board_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="30dp"
+                    android:text="인기 게시글"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/one_mobile_bold"
+                    app:layout_constraintStart_toStartOf="@+id/cardView_second"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView_second" />
+
+                <TextView
+                    android:id="@+id/today_mission_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="오늘의 일일 미션"
+                    android:textSize="24dp"
+                    android:fontFamily="@font/one_mobile_bold"
+                    app:layout_constraintStart_toStartOf="@+id/recommend_board_container"
+                    app:layout_constraintTop_toBottomOf="@+id/recommend_board_container" />
+
+                <TextView
+                    android:id="@+id/today_mission_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="176dp"
+                    android:layout_marginTop="34dp"
+                    android:text="전체보기"
+                    android:textSize="16dp"
+                    android:visibility="invisible"
+                    android:fontFamily="@font/one_mobile_regular"
+                    app:layout_constraintStart_toEndOf="@+id/today_mission_text"
+                    app:layout_constraintTop_toBottomOf="@+id/recommend_board_container" />
+
+                <FrameLayout
+                    android:id="@+id/recommend_board_container"
+                    android:layout_width="370dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintStart_toStartOf="@+id/recommend_board_text"
+                    app:layout_constraintTop_toBottomOf="@+id/recommend_board_text"></FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/today_mission_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/today_mission_text"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/today_mission_text"
+                    app:layout_constraintTop_toBottomOf="@id/today_mission_text"
+                    android:layout_marginTop="20dp">
+
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    app:layout_constraintTop_toBottomOf="@id/today_mission_container"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

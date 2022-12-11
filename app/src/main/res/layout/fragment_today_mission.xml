@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/today_mission_list"
+    android:layout_width="354dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Today_Mission_Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="170dp"
+            android:layout_height="115dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cardViewImg1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#E98FAD"
+                android:src="@drawable/mission_eat_at_home" />
+            <TextView
+                android:id="@+id/cardView1Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:fontFamily="@font/one_mobile_regular"/>
+            <TextView
+                android:id="@+id/card_missioncode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="170dp"
+            android:layout_height="115dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="test"
+            android:textColor="#000000"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cardViewImg2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/sample2"
+                android:background="#9E63AC"/>
+            <TextView
+                android:id="@+id/cardView2Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:fontFamily="@font/one_mobile_regular"/>
+            <TextView
+                android:id="@+id/card_missioncode2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="170dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="test"
+            android:textColor="#000000"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <ImageView
+                android:id="@+id/cardViewImg3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/sample2"
+                android:background="#EACB2C"/>
+
+            <TextView
+                android:id="@+id/cardView3Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:fontFamily="@font/one_mobile_regular"/>
+
+            <TextView
+                android:id="@+id/card_missioncode3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="170dp"
+            android:layout_height="115dp"
+
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="test"
+            android:textColor="#000000"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <ImageView
+                android:id="@+id/cardViewImg4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/sample2"
+                android:background="#01AAE6"/>
+
+            <TextView
+                android:id="@+id/cardView4Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:fontFamily="@font/one_mobile_regular"/>
+            <TextView
+                android:id="@+id/card_missioncode4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="170dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="test"
+            android:textColor="#000000"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintStart_toStartOf="@+id/cardView3"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+            <ImageView
+                android:id="@+id/cardViewImg5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/sample2"
+                android:background="#EACB2C"/>
+
+            <TextView
+                android:id="@+id/cardView5Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:fontFamily="@font/one_mobile_regular"/>
+            <TextView
+                android:id="@+id/card_missioncode5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="70dp"
+                android:text="" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView6"
+            android:layout_width="170dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="test"
+            android:textColor="#000000"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+            <ImageView
+                android:id="@+id/cardViewImg6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/sample2"
+                android:background="#01AAE6"/>
+
+            <TextView
+                android:id="@+id/cardView6Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textSize="14dp"
+                android:fontFamily="@font/one_mobile_regular"/>
+            <TextView
+                android:id="@+id/card_missioncode6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

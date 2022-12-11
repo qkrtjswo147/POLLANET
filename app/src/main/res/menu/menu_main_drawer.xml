@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item android:id="@+id/my_Mission"
+            android:title="나의 미션"
+            android:icon="@drawable/sample_mission"
+            />
+        <item android:id="@+id/my_Ranking"
+            android:title="내 순위"
+            android:icon="@drawable/ic_drawer_ranking"
+            />
+        <item android:id="@+id/my_Writing"
+            android:title="내가 쓴 게시글"
+            android:icon="@drawable/ic_bottombar_board"
+            />
+        <item android:id="@+id/notice"
+            android:title="공지사항"
+            android:icon="@drawable/ic_drawer_notice"
+            />
+        <item android:id="@+id/profile_update"
+            android:title="프로필 수정"
+            android:icon="@drawable/ic_person_update"
+            />
+    </group>
+    <group android:id="@+id/group2">
+        <item android:id="@+id/logout"
+            android:title="로그아웃"
+            />
+    </group>
+</menu>

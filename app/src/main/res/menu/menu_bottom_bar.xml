@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_Mission"
+        android:enabled="true"
+        android:title="Mission"
+        android:icon="@drawable/sample_mission"/>
+    <item
+        android:id="@+id/tab_Map"
+        android:enabled="true"
+        android:title="Map"
+        android:icon="@drawable/ic_bottombar_map"/>
+    <item
+        android:id="@+id/tab_Home"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/tab_Board"
+        android:enabled="true"
+        android:title="Board"
+        android:icon="@drawable/ic_bottombar_board"/>
+    <item
+        android:id="@+id/tab_Ranking"
+        android:enabled="true"
+        android:title="Ranking"
+        android:icon="@drawable/ic_drawer_ranking"/>
+</menu>
